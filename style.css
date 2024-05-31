@@ -1,0 +1,62 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to right, #f4f4f4, #e2e2e2); /* Double color background */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 36px; /* Larger font size */
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.2s; /* Smooth transition for hover effect */
+}
+
+.product:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.product h1 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+    font-family: 'Arial Black', Gadget, sans-serif; /* Bold font style */
+}
+
+.product p {
+    color: #666;
+    font-size: 14px;
+    margin: 10px 0;
+    font-family: 'Georgia', serif; /* Serif font style */
+}
+
+.product .price {
+    font-size: 20px;
+    color: #e91e63;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace; /* Monospace font style */
+}
